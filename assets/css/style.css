@@ -1,0 +1,145 @@
+/* Google Font*/
+
+ /*@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap'); !!! Intente usar raleway, medium 500 como en la clase pero me parecio que 400 quedaba mejor !!!*/ 
+ @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+header {
+/* Layout Properties */
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+/* UI Properties */
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;  
+}
+header h1 {
+    font: normal normal medium 50px/59px Raleway;
+    font-size: 300%;
+    padding: 5px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+main img{
+/* Layout Properties */
+    top: 73px;
+    left: 0px;
+    width: 1280px;
+    height: 727px;
+    opacity: 1;   
+}
+article {
+    display: flex;
+/* Layout Properties */
+    margin-top: -4px;
+    top: 800px;
+    left: 0px;
+    width: 1280px;  
+    height: 348px;
+/* UI Properties */
+background-color: #000000;
+    opacity: 1;
+}
+article p { 
+    font: normal normal 300 16px/19px Raleway;   
+    padding-top: 76px;
+    padding-left: 150px;
+    padding-right: 665;
+/* Layout Properties */
+    top: 876px;
+    left: 150px;
+    width: 475px;
+    height: 197px;
+/* UI Properties */
+    text-align: left;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+article img {
+    padding-top: 45px;
+    padding-left: 150px;
+    padding-right: 665;
+/* Layout Properties */
+    top: 845px;
+    left: 731px;
+    width: 399px;
+    height: 237px;
+/* UI Properties */
+    opacity: 1; 
+}
+section {
+    top: 1141px;
+    left: 0px;
+    width: 1280px;
+    height: 348px;
+    background: #1E1A13;
+    opacity: 0.98;
+}
+section h2{
+    font: normal normal medium 50px/59px Raleway;
+    font-size: 280%;
+    padding-top: 75px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;  
+}
+section h4{
+    padding-top: 30px;
+}
+.iconos {
+    background-color: #1E1A13;
+    color: #FFFFFF;
+    opacity: 0.98;
+ }
+ .iconos .logos{ 
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-left: 65px;
+ }
+ .Galeria {
+    top: 1488px;
+    left: 0px;
+    width: 1280px;
+    height: 348px;
+    background: #000000 0%;
+    opacity: 0.96;
+}
+.Galeria img {
+   
+    padding-top: 73px;
+    padding-left: 15px;
+    top: 1561px;
+    left: 150px;
+    width: 332px;
+    height: 210px;;
+    opacity: 1;
+}
+.fotos {
+    padding-left: 120px
+    ;}
+footer{
+
+    top: 1835px;
+    left: 0px;
+    width: 1280px;
+    height: 102px;
+    background-color:#1E1A13;
+}
+footer p{
+    padding: 40px;
+    color: #FFFFFF;
+    text-align: center;
+    opacity: 1;
+;
+}
+    
